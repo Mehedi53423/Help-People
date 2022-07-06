@@ -2,11 +2,14 @@
     margin: 0;
 }
 
+body{
+    font-family: 'Yantramanav', sans-serif;
+}
+
 .textStyle1{
     color: white;
     text-align: center;
     padding: 150px;
-    font-family: 'Yantramanav', sans-serif;
 }
 
 .textStyle1 h1{
@@ -39,7 +42,6 @@ button{
 .textStyle2{
     text-align: center;
     padding: 150px;
-    font-family: 'Yantramanav', sans-serif;
 }
 
 .textStyle2 h1{
@@ -65,6 +67,13 @@ button{
     font-size: 25px;
     font-weight: bold;
     border-radius: 5px;
+    width: 100px;
+}
+
+#activeBox{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
 }
 
 .textStyle2 input{
@@ -82,7 +91,6 @@ button{
 .textStyle3{
     text-align: center;
     padding: 150px;
-    font-family: 'Yantramanav', sans-serif;
 }
 
 .thirdSecHeader{
@@ -130,7 +138,7 @@ footer{
 }
 
 footer h1{
-    font-size: 35px;
+    font-size: 45px;
     color: #FF5959;
     padding: 50px;
     font-family: 'Lobster Two', cursive;
@@ -140,6 +148,7 @@ footer p{
     font-size: 20px;
     color: white;
     padding-bottom: 50px;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 .gridHeader{
@@ -159,12 +168,14 @@ footer p{
 #subBtn{
     color: white;
     background-color: #FF5959;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     padding: 20px 40px;
-    border-radius: 8px;
+    border-radius: 0 8px 8px 0;
     cursor: pointer;
     border: 0px;
+    position: relative;
+    left: -5px;
 }
 
 .subSecStyle{
@@ -184,4 +195,6 @@ footer p{
     font-size: 25px;
     text-align: left;
     background-color: #D9D9D9;
+    padding: 20px 40px;
+    border-radius: 8px 0 0 8px;
 }
