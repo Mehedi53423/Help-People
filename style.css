@@ -6,6 +6,7 @@
     color: white;
     text-align: center;
     padding: 150px;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 .textStyle1 h1{
@@ -38,6 +39,7 @@ button{
 .textStyle2{
     text-align: center;
     padding: 150px;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 .textStyle2 h1{
@@ -80,27 +82,46 @@ button{
 .textStyle3{
     text-align: center;
     padding: 150px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.thirdSecHeader{
+    font-size: 70px;
+    padding-bottom: 25px;
+}
+
+.thirdSecPar{
+    font-size: 25px;
+    padding: 25px 350px;
 }
 
 .flexStyle2{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .boxStyle2{
-    padding: 50px 25px;
+    padding: 25px 25px;
     margin: 15px 15px;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
 }
 
 #firstGrid{
     background-color: #EDF5F6;
+    text-align: left;
 }
 
 #secGrid{
     background-color: #FFEEEE;
+    text-align: left;
 }
 
 #thiGrid{
     background-color: #FFF4D6;
+    text-align: left;
 }
 
 footer{
@@ -112,10 +133,55 @@ footer h1{
     font-size: 35px;
     color: #FF5959;
     padding: 50px;
+    font-family: 'Lobster Two', cursive;
 }
 
 footer p{
     font-size: 20px;
     color: white;
     padding-bottom: 50px;
+}
+
+.gridHeader{
+    font-size: 30px;
+    padding: 25px 0px;
+}
+
+.gridPar{
+    font-size: 25px;
+}
+
+.icons{
+    width: 60px;
+    padding-top: 50px;
+}
+
+#subBtn{
+    color: white;
+    background-color: #FF5959;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.subSecStyle{
+    background-color: #FFF4D6;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.subSecStyle input{
+    width: 40%;
+    border: none;
+    outline: none;
+    margin: 0;
+    color: #707070;
+    font-size: 25px;
+    text-align: left;
+    background-color: #D9D9D9;
 }
