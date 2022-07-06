@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+
+.textStyle1{
+    color: white;
+    text-align: center;
+    padding: 150px;
+}
+
+.textStyle1 h1{
+    font-size: 90px;
+    padding: 25px 250px;
+}
+
+.textStyle1 p{
+    font-size: 25px;
+    padding: 25px 350px;
+}
+
+button{
+    color: white;
+    background-color: #FF5959;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.banner{
+    background-image: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textStyle2{
+    text-align: center;
+    padding: 150px;
+}
+
+.textStyle2 h1{
+    font-size: 70px;
+    padding-bottom: 25px;
+}
+
+.textStyle2 p{
+    font-size: 25px;
+    padding: 25px 350px;
+}
+
+.flexStyle1{
+    display: flex;
+    margin: 50px 300px;
+}
+
+.boxStyle1{
+    padding: 50px 25px;
+    background-color: #FAFAFA;
+    margin: auto;
+    color: #707070;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.textStyle2 input{
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #707070;
+    outline: none;
+    color: #707070;
+    font-size: 25px;
+    text-align: center;
+}
+
+.textStyle3{
+    text-align: center;
+    padding: 150px;
+}
+
+.flexStyle2{
+    display: flex;
+}
+
+.boxStyle2{
+    padding: 50px 25px;
+    margin: 15px 15px;
+}
+
+#firstGrid{
+    background-color: #EDF5F6;
+}
+
+#secGrid{
+    background-color: #FFEEEE;
+}
+
+#thiGrid{
+    background-color: #FFF4D6;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+}
+
+footer h1{
+    font-size: 35px;
+    color: #FF5959;
+    padding: 50px;
+}
+
+footer p{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 50px;
+}
