@@ -206,6 +206,8 @@ footer p{
     text-align: center;
     box-shadow: 20px 20px 50px 15px grey;
     border-radius: 15px;
+    width: 600px;
+    height: 700px;
 }
 
 .spcSecStyle1 img{
@@ -218,4 +220,12 @@ footer p{
     font-size: 25px;
     width: 500px;
     padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spcSecStylePar{
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px 80px 50px;
 }
