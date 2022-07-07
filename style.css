@@ -37,6 +37,7 @@ button{
     background-image: url("images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: inset 0px 0px 50px 30px rgba(0, 0, 0, 0.6);
 }
 
 .textStyle2{
@@ -81,7 +82,7 @@ button{
     padding: 15px;
     margin-bottom: 40px;
     border: none;
-    border-bottom: 1px solid #707070;
+    border-bottom: 2px solid #dadada;
     outline: none;
     color: #707070;
     font-size: 25px;
@@ -204,16 +205,17 @@ footer p{
     padding: 30px;
     align-items: center;
     text-align: center;
-    box-shadow: 20px 20px 50px 15px grey;
+    box-shadow: 0 0 20px 1px grey;
     border-radius: 15px;
     width: 600px;
-    height: 700px;
+    height: 750px;
 }
 
 .spcSecStyle1 img{
     height: 500px;
     width: 500px;
     border-radius: 15px;
+    margin-top: 45px;
 }
 
 .spcSecStyle1 p{
