@@ -19,7 +19,7 @@ body{
 
 .textStyle1 p{
     font-size: 25px;
-    padding: 25px 350px;
+    padding: 0px 350px 50px 350px;
 }
 
 button{
@@ -53,6 +53,7 @@ button{
 .textStyle2 p{
     font-size: 25px;
     padding: 25px 350px;
+    color: #707070;
 }
 
 .flexStyle1{
@@ -102,6 +103,7 @@ button{
 .thirdSecPar{
     font-size: 25px;
     padding: 25px 350px;
+    color: #707070;
 }
 
 .flexStyle2{
@@ -159,6 +161,7 @@ footer p{
 
 .gridPar{
     font-size: 25px;
+    color: #707070;
 }
 
 .icons{
@@ -224,10 +227,12 @@ footer p{
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
+    color: #707070;
 }
 
 .spcSecStylePar{
     font-size: 25px;
     text-align: center;
     padding: 0 50px 80px 50px;
+    color: #707070;
 }
