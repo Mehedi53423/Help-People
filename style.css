@@ -37,7 +37,7 @@ button{
     background-image: url("images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 0px 0px 50px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px -500px 500px -80px rgba(0, 0, 0, 0.7);
 }
 
 .textStyle2{
