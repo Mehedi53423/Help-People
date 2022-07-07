@@ -198,3 +198,24 @@ footer p{
     padding: 20px 40px;
     border-radius: 8px 0 0 8px;
 }
+
+.spcSecStyle1{
+    margin: 0 35px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 20px 20px 50px 15px grey;
+    border-radius: 15px;
+}
+
+.spcSecStyle1 img{
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.spcSecStyle1 p{
+    font-size: 25px;
+    width: 500px;
+    padding: 30px;
+}
